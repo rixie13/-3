@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-02T09:34:19" hostname="DESKTOP-HAPLGAQ" time="0.006">
+<testsuite name="MainTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-21T09:52:55" hostname="DESKTOP-HAPLGAQ" time="0.005">
   <properties/>
-  <testcase name="taxEarningsFalse" classname="MainTest" time="0.006">
+  <testcase name="assertEqualsFalse" classname="MainTest" time="0.005">
     <failure message="java.lang.AssertionError: expected:&lt;45&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;45&gt; but was:&lt;1&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at MainTest.taxEarningsFalse(MainTest.java:11)
+	at MainTest.assertEqualsFalse(MainTest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

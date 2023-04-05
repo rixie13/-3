@@ -5,13 +5,13 @@ import static org.junit.Assert.*;
 public class MainTest {
 
     @Test
-    public void taxEarningsFalse() {
+    public void assertEqualsFalse() {
         int earnings=24;
         int tr=Main.taxEarnings(earnings);
         assertEquals(45,tr);
     }
     @Test
-    public void taxEarningTrue() {
+    public void assertEqualsTrue() {
         int earnings=38;
         int tr=Main.taxEarnings(earnings);
         assertEquals(2,tr);
